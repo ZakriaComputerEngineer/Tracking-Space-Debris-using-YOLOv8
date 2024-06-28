@@ -5,9 +5,13 @@ Project Description: Tracking Space Debris and Other Objects Through Camera
 Overview
 This project involves tracking space debris and other objects through a camera using a custom-trained YOLOv8 model. The goal was to detect and track multiple classes of objects in images & video, ensuring high accuracy and robustness of the model.
 
+![img091706_jpg rf 749ed824458ea96a34234383f52e5faf](https://github.com/ZakriaComputerEngineer/Tracking-Space-Debris-using-YOLOv8/assets/150436890/ac828cbf-1a3f-49c9-8144-7d365d46d458)
+
+
 Dataset Preparation
 
 Initial Dataset: Utilized an existing dataset but chose not to use its labels due to their subpar quality.
+Link- https://drive.google.com/drive/folders/1cYUHXstqUCjXKG7hKuKqtUsWeQQ_3cYz?usp=sharing
 
 Manual Labeling: Manually boxed and labeled objects in the dataset. Selected 120 images for each of the 11 classes, resulting in a total of 1,320 manually labeled images.
 ![image](https://github.com/ZakriaComputerEngineer/Tracking-Space-Debris-using-YOLOv8/assets/150436890/0927ff7b-b087-438c-9d46-9595bae88c26)
@@ -23,6 +27,9 @@ Dataset foramt: Organiszing the images and labels as per YOLOv8 provided format 
 ![image](https://github.com/ZakriaComputerEngineer/Tracking-Space-Debris-using-YOLOv8/assets/150436890/af0c5a66-2ddd-43d4-a11e-53a0a66be22b)
 ![image](https://github.com/ZakriaComputerEngineer/Tracking-Space-Debris-using-YOLOv8/assets/150436890/25a24b5d-276f-4aa4-92b7-87604b375940)
 ![image](https://github.com/ZakriaComputerEngineer/Tracking-Space-Debris-using-YOLOv8/assets/150436890/6799dc04-ca13-4276-af63-1da465071d27)
+
+Final Dataset: 2467 fined labelled, resized, randomly flipped dataset on yolov8 format.
+Link- https://drive.google.com/file/d/1KkwIDdIXYZT1Qg6druoNmVwxyN__KFQU/view?usp=sharing
 
 Environment Setup
 YOLOv8 Loading: Leveraged the Ultralytics YOLOv8 library for object detection.
