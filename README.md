@@ -29,7 +29,7 @@ Dataset foramt: Organiszing the images and labels as per YOLOv8 provided format 
 ![image](https://github.com/ZakriaComputerEngineer/Tracking-Space-Debris-using-YOLOv8/assets/150436890/6799dc04-ca13-4276-af63-1da465071d27)
 
 Final Dataset: 2467 fined labelled, resized, randomly flipped dataset on yolov8 format.
-Link- [https://drive.google.com/file/d/1KkwIDdIXYZT1Qg6druoNmVwxyN__KFQU/view?usp=sharing](https://www.kaggle.com/datasets/muhammadzakria2001/space-debris-detection-dataset-for-yolov8)
+Link- https://www.kaggle.com/datasets/muhammadzakria2001/space-debris-detection-dataset-for-yolov8
 
 Environment Setup
 YOLOv8 Loading: Leveraged the Ultralytics YOLOv8 library for object detection.
